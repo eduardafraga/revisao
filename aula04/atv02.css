@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+}
+
+div{
+    background-color: yellow;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+#header{
+    opacity: 0.6;
+    height: 100px;
+    width: 1fr;
+    border: rgb(85, 81, 81) solid 3px;
+    background-image: url("img02.jpeg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: yellow;
+    background-size: 80px;
+}
+
+#meusite{
+    border: rgb(0, 0, 0) solid 3px;
+    background-color: yellow;
+    opacity: 0.6;
+    margin: 25px 50px;
+    width: 250px;
+    text-align: center;
+}
+
+#td{
+    width: 1fr;
+    height: 90vh;
+}
