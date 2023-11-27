@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(38, 36, 36);
+}
+
+.box {
+    background-color: rgb(70, 67, 67);
+    border: 10px solid pink;
+    height: 700px;
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "ladoE ladoD"
+        "rodape rodape";
+
+        grid-template-rows: 100px 550px ;
+        grid-template-columns: 100px 1fr ;
+}
+
+.header {
+    background-color: antiquewhite;
+    grid-area: header;
+}
+
+.ladoE {
+    background-color: blanchedalmond;
+    grid-area: ladoE;
+}
+
+.ladoD {
+    background-color: bisque;
+    grid-area: ladoD;
+}
+
+.rodape {
+    background-color: rgb(165, 151, 132);
+    grid-area: rodape;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(38, 36, 36);
+}
+
+.box {
+    background-color: lightblue;
+    border: 10px solid rgb(253, 220, 226);
+    height: 1000px;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "ladoE meio ladoD"
+        "rodape rodape rodape";
+
+        grid-template-rows: 200px 1fr 100px ;
+        grid-template-columns: 100px 1fr 100px ;
+}
+
+.header {
+    background-color: pink;
+    grid-area: header;
+    image-orientation: from-image;
+}
+
+.ladoE {
+    background-color: rgb(180, 222, 248);
+    grid-area: ladoE;
+}
+
+.ladoD {
+    background-color: rgb(176, 213, 225);
+    grid-area: ladoD;
+}
+
+.rodape {
+    background-color: rgb(223, 127, 143);
+    grid-area: rodape;
+}
+
+.meio {
+    background-color: #D5FFFF;
+    grid-area: meio;
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: blue;
+}
+
+.box {
+    background-color: black;
+    border: 20px solid pink;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "menuL conteudo menuR"
+                        "menuL rodape menuR";
+ grid-template-rows: 50px 1fr 90px;
+ grid-template-columns: 100px 1fr 100px;
+}
+
+.header {
+    background-color: aqua;
+    grid-area: header;
+}
+
+.menuL {
+    background-color: rgb(177, 213, 218);
+    grid-area: menuL;
+}
+
+.menuR {
+    background-color: rgb(137, 198, 226);
+    grid-area: menuR;
+}
+
+.conteudo {
+    background-color: rgb(37, 221, 221);
+    grid-area: conteudo;
+}
+
+.rodape {
+    background-color: rgb(237, 245, 246);
+    grid-area: rodape;
+}
