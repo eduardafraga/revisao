@@ -1,0 +1,147 @@
+body {
+  background-color: rgb(227, 245, 230);
+  border: 10px rgb(250, 235, 238);
+}
+.box {
+  height: 1000px;
+  padding: 10px;
+  display: grid;
+  grid-template-areas:
+    " titulo titulo titulo"
+    "menuL conteudo menuR"
+    "rodape rodape rodape";
+
+  grid-template-rows: 90px 1fr 200px;
+  grid-template-columns: 100px 1fr 200px;
+  gap: 5px;
+  background-color: rgb(129, 127, 255);
+  column-gap: 10px;
+}
+.titulo {
+  background-color: lightblue;
+  grid-area: titulo;
+}
+
+.conteudo {
+  background-color: rgb(127, 229, 255);
+  grid-area: conteudo;
+}
+
+.menuR {
+  background-color: rgb(20, 170, 208);
+  grid-area: menuR;
+  display: grid;
+  grid-template-areas: "div1 div2"
+  "div3 div4"
+  "div5 div6"
+  "div7 div8" ;
+}
+
+.menuL {
+  display: grid;
+  grid-template-areas:
+    "box1 "
+    "box2 "
+    "box3 ";
+  grid-template-columns: 100px;
+  grid-template-rows: 233px 233px 233px;
+  background-color: pink;
+  
+}
+
+.box1 {
+  background-color: palevioletred;
+  grid-area: box1;
+}
+.box2 {
+  background-color: rgb(169, 53, 91);
+  grid-area: box2;
+}
+.box3 {
+  background-color: rgb(50, 17, 28);
+  grid-area: box3;
+}
+
+.div1 {
+    grid-area: div1;
+    border: border 2px black solid;
+    background-color: rgb(172, 149, 194);
+}
+
+.div2 {
+    grid-area: div2;
+    border: border 2px black solid;
+    background-color: rgb(146, 33, 252);
+}
+
+.div3 {
+    grid-area: div3;
+    border: border 2px black solid;
+    background-color: rgb(168, 159, 177);
+}
+
+.div4 {
+    grid-area: div4;
+    border: border 2px black solid;
+    background-color: rgb(145, 114, 174);
+}
+
+.div5 {
+    grid-area: div5;
+    border: border 2px black solid;
+    background-color: blueviolet;
+}
+
+.div6 {
+    grid-area: div6;
+    border: border 2px black solid;
+    background-color: rgb(240, 225, 254);
+}
+
+.div7 {
+    grid-area: div7;
+    border: border 2px black solid;
+    background-color: rgb(140, 103, 173);
+}
+
+.div8  {
+    grid-area: div8;
+    border: border 2px black solid;
+    background-color: rgb(70, 61, 77);
+}
+
+.rodape {
+  background-color: beige;
+  grid-area: rodape;
+}
+
+.div1 p {
+  background-color: aliceblue;
+  border: white 1px solid;
+}
+.div2 p {
+  background-color: #c2ddf4;
+  border: white 1px solid;
+}
+.div3 p {background-color: #c2ddf4;
+  border: white 1px solid;}
+.div4 p {
+  background-color: aliceblue;
+  border: white 1px solid;
+}
+.div5 p {
+  background-color: azure;
+  border: white 1px solid;
+}
+.div6 p{
+  background-color: rgb(157, 177, 195);
+  border: white 1px solid;
+}
+.div7 p {
+  background-color: rgb(148, 203, 203);
+  border: white 1px solid;
+}
+.div8 p {
+  background-color: azure;
+  border: white 1px solid;
+}
